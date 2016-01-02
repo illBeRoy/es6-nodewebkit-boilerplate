@@ -1,5 +1,6 @@
 'use strict';
 
+
 class App {
 
     constructor(appName) {
@@ -13,6 +14,7 @@ class App {
     }
 
 }
+
 
 var app = new App();
 app.main(['a', 1, true]);
