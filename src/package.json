@@ -1,0 +1,15 @@
+{
+  "name": "your-app",
+  "description": "your description",
+  "author": "you",
+  "version": "0.1.0",
+  "main": "index.html",
+  "window": {
+    "title": "Your App",
+    "toolbar": false,
+    "frame": true,
+    "width": 800,
+    "height": 600,
+    "position": "center"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "es6-boilerplate",
+  "description": "A boilerplate for creating ES6 graphical applications. Includes babel, localhost serving and packaging as a node-webkit app.",
+  "author": "Roy Sommer",
+  "repository": "https://www.github.com/illberoy/es6_boilerplate",
+  "version": "0.0.1",
+  "dependencies": {
+    "gulp": "3.9.0",
+    "gulp-babel": "6.1.1",
+    "gulp-clean": "0.3.1",
+    "gulp-sequence": "0.4.4",
+    "gulp-rename": "1.2.2",
+    "gulp-serve": "1.2.0",
+    "gulp-node-webkit-builder": "1.1.1"
+  }
+}
