@@ -1,27 +1,18 @@
 'use strict';
 
-class Sabba {
+class App {
 
-    constructor() {
+    constructor(appName) {
 
-        this._x = 1;
-        this._y = 2;
+        this._appName = appName || 'default name';
     }
 
-    x() {
+    main(args) {
 
-        return this._x
-    }
-
-    y() {
-
-        return this._y;
+        console.log(this._appName, args);
     }
 
 }
 
-var a = new Sabba();
-
-console.log(a.x());
-a._x = 232;
-console.log(a.x());
+var app = new App();
+app.main(['a', 1, true]);
