@@ -1,20 +1,8 @@
 'use strict';
 
+import { Router } from './viewmodel/router/router.js';
+import { View } from './viewmodel/view.js';
 
-class App {
+var router = new Router();
 
-    constructor(appName) {
-
-        this._appName = appName || 'default name';
-    }
-
-    main(args) {
-
-        console.log(this._appName, args);
-    }
-
-}
-
-
-var app = new App();
-app.main(['a', 1, true]);
+setTimeout(() => router.moveTo(new View('.main-view')), 3000);
